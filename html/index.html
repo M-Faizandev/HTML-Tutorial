@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML TUTORIAL</title>
-
+    <link rel="stylesheet" href="">
 </head>
 <body>
 
@@ -230,6 +230,8 @@ and only occupy as much width as necessary.              width available. Exampl
                 <input type="text" placeholder="Enter Your Name"> <br> <br>
                 <label for="">Email</label>
                 <input type="email"> <br> <br>
+                <label for="">Password</label>
+                <input type="password"> <br> <br>
                 <label for="">Phone Number</label>
                 <input type="tel"> <br> <br>
                 <label for="">Number</label>
@@ -244,8 +246,11 @@ and only occupy as much width as necessary.              width available. Exampl
                 <input type="datetime-local"> <br><br>
                 <label for="">Week</label>
                 <input type="week"> <br><br>
+
+                <!-- 13-03-2025 -->
+
                 <label for="">Range</label>
-                <input type="range"> <br> <br>
+                <input type="range" step="20"> <br> <br>
                 <input type="radio" name="radio" value="radio" id="radio1">
                 <label for="radio1">Radio 1</label>
                 <input type="radio" name="radio" value="radio" id="radio2">
@@ -264,17 +269,63 @@ and only occupy as much width as necessary.              width available. Exampl
                 <label for="">Color</label>
                 <input type="color"> <br><br>
                 <label for="">File</label>
-                <input type="file"> <br><br>
+                <input type="file" accept="images/*"> <br><br>
                 <label for="">Hidden</label>
                 <input type="hidden"> <br><br>
                 <label for="">Reset</label>
                 <input type="reset"> <br><br>
                 <label for="">Submit</label>
                 <input type="submit"> <br><br>
-                <input type="submit" value="Save">
+                <textarea name="" id="" rows="5" placeholder="It's a TextArea"></textarea> <br><br>
+                <label for="">Advance Web Course Outline</label>
+                <select name="" id="">
+                        <option value="">Select</option>
+                    <optgroup label="Front-End Languages">
+                        <option value="">HTML</option>
+                        <option value="">CSS</option>
+                        <option value="">BootStrap</option>
+                        <option value="">JS</option>
+                        <option value="">React Js</option>
+                    </optgroup>
+                    <optgroup label="Back-End Languages">
+                        <option value="">PHP</option>
+                        <option value="">Laravel</option>
+                    </optgroup>
+                    <optgroup label="Database">
+                        <option value="">MySQL</option>
+                    </optgroup>
+                </select> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="">Data List</label>
+                <input list="Data List">
+                <datalist id="Data List">
+                        <option value="HTML">
+                        <option value="CSS">
+                        <option value="BootStrap">
+                        <option value="JS">
+                        <option value="React JS">
+                </datalist> <br><br>
+
+                <fieldset>
+                    <legend>STUDENT'S FORM</legend> <br>
+                    <label for="">Name</label>
+                    <input type="text" placeholder="Enter your Name">
+                    <label for="">Phone</label>
+                    <input type="tel" placeholder="Enter your Phone"> <br><br>
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Enter your Email"> 
+                    <label for="">Date of Birth</label>
+                    <input type="date"> <br> <br>
+                    <label for="">Age</label>
+                    <input type="text" placeholder="Enter your Age">
+                    <label for="">Gender:</label>
+                    <input type="radio" name="gender" value="radio" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" value="radio" id="female">
+                <label for="female">Female</label>
+                </fieldset> <br><br>
+                <input type="submit" value="Save Form">
             </form>
 
-            <!-- 13-03-2025 -->
-
+            <!-- 14-03-2025 -->
 </body>
 </html>
